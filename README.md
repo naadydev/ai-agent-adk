@@ -18,13 +18,18 @@ Experimental and educational projects for the Google Agents Development Kit (ADK
 ```yaml title:env
 # Set to False to use API keys directly (required for multi-model)
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
-# --- Replace with your actual keys ---
 GOOGLE_API_KEY=YOUR_ACTUAL_GOOGLE_API_KEY_HERE
 ANTHROPIC_API_KEY=YOUR_ACTUAL_ANTHROPIC_API_KEY_HERE
 OPENAI_API_KEY=YOUR_ACTUAL_OPENAI_API_KEY_HERE
-# --- End of keys ---
 ```
 
+# Run 
+- Make sure you are on the root directory `ai_agents_adk` → open your terminal → run this command  `adk web`  
+Options  
+`$> adk`  
+  web            → Starts a FastAPI server with Web UI for agents.  
+  run             → Runs an interactive CLI for a certain agent.  
+  api_server →  Starts a FastAPI server for agents.  
 
 # Gemini Available Models
 https://ai.google.dev/gemini-api/docs/models
