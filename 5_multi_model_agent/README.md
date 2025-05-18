@@ -1,6 +1,7 @@
 # Using Mulit LLM providers 
 - You can work with different LLM providers through LiteLLM integration, so you have flexibility to choose the right model for each agent in your system.
-- Make sure you installed LiteLLM package: `pip install litellm
+- Make sure you installed LiteLLM package: `pip install litellm  
+- https://docs.litellm.ai/docs/providers
 
 ### Using OpenRouter with LiteLlm
 You can also use OpenRouter to switch between models using 1 same single API Key:
