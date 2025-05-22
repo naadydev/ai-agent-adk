@@ -2,7 +2,7 @@
 Experimental and educational projects for the Google Agents Development Kit (ADK), ranging from simple implementations to advanced multi-agent systems.
 # Setup
 1. **Clone Project**
-	- `git clone https://github.com/user/repo.git`
+	- `git clone https://github.com/naadydev/ai-agent-adk.git`
 2. **Creating a virtual Python environment**
 	- `python -m venv .venv`
 3. **Activate the virtual environment** (==Activate each new terminal instance==)
